@@ -1,0 +1,12 @@
+[user]
+        email = ike_0102@hotmail.com
+        name = Ike Lee
+[alias]
+        co = checkout
+        st = status
+        br = branch
+        ci = commit
+        cm = commit -m
+        up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+        purge = !git add -A && git reset --hard
+        cp = cherry-pick
